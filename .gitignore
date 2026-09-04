@@ -1,0 +1,22 @@
+# Face data & generated database (do NOT commit real student data)
+data/students/*
+!data/students/.gitkeep
+data/attendance.db
+
+# Runtime temp files
+temp_capture.jpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
